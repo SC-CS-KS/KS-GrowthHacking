@@ -1,7 +1,15 @@
 
+# [用户生命周期](UserLifecycle/README.md)
+
+# 增长黑客
+
+## 北极星指标
+
 # 增长模型
-## 漏斗模型 Marketing Funnel
-### [AARRR](GrowthModel/AARRR/README.md)
+
+## [AARRR](GrowthModel/AARRR/README.md)
+## RARRA
+## 内容增长循环（content loop）
 
 # [AB 试验](ABTest/README.md)
 
