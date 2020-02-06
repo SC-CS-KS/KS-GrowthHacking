@@ -20,7 +20,10 @@
 # [AB 试验](ABTest/README.md)
 
 # [数据驱动](DataDriven/README.md)
-## [指标](DataDriven/Index/README.md)Index
+## 数据埋点
+## 用户行为数据
+
+## [数据指标](DataDriven/Index/README.md)Index
 ## [数据分析](DataDriven/Analytics/README.md)
 
 # [增长平台](UGP/README.md)
