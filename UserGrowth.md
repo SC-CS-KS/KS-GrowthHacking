@@ -1,4 +1,6 @@
 
+# [什么是用户增长？](WhatIs.md)
+
 # [用户生命周期](UserLifecycle/README.md)
 
 # [增长策略玩法](GrowthStrategy/)
