@@ -1,8 +1,6 @@
 
 # [什么是用户增长？](WhatIs.md)
 
-# [用户生命周期](UserLifecycle/README.md)
-
 # [增长策略玩法](GrowthStrategy/)
 
 # 增长黑客
@@ -12,7 +10,10 @@
 ## 魔法数字
 
 # 用户增长模型
+
 ## [用户生命周期](UserGrowthModel/UserLifecycle/README.md)
+### RFM
+## [用户行为](UserGrowthModel/UserBehavior/README.md)
 
 ## [AARRR](UserGrowthModel/AARRR/README.md)
 ## [RARRA](UserGrowthModel/RARRA/README.md)
@@ -22,7 +23,6 @@
 
 # [数据驱动](DataDriven/README.md)
 ## 数据埋点
-## 用户行为数据
 
 ## [数据指标](DataDriven/Index/README.md)Index
 ## [数据分析](DataDriven/Analytics/README.md)
