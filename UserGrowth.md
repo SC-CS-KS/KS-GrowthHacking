@@ -5,6 +5,8 @@
 
 # 增长黑客
 
+## 增长团队
+
 ## 北极星指标
 ## Aha 时刻
 ## 魔法数字
@@ -15,9 +17,27 @@
 ### RFM
 ## [用户行为](UserGrowthModel/UserBehavior/README.md)
 
-## [AARRR](UserGrowthModel/AARRR/README.md)
-## [RARRA](UserGrowthModel/RARRA/README.md)
-## 内容增长循环（content loop）
+## 用户漏斗
+
+### 拉新
+### 激活
+### 留存
+### 推荐
+### 变现
+
+### [AARRR](UserGrowthModel/FunnelModel/AARRR/README.md)
+### [RARRA](UserGrowthModel/FunnelModel/RARRA/README.md)
+
+# [用户画像](UserPortrait/README.md)
+## 标签系统
+
+# [用户运营](UserOperation/)
+
+# [用户增长平台](UGP/README.md)
+## [GrowingIO](UGP/GrowingIO)
+## [TGP](UGP/TGP)
+
+# 内容增长循环（Content Loop）
 
 # [AB 试验](ABTest/README.md)
 
@@ -26,15 +46,6 @@
 
 ## [数据指标](DataDriven/Index/README.md)Index
 ## [数据分析](DataDriven/Analytics/README.md)
-
-# [增长平台](UGP/README.md)
-## [GrowingIO](UGP/GrowingIO)
-## [TGP](UGP/TGP)
-
-# [用户画像](UserPortrait/README.md)
-## 标签系统
-
-# [用户运营](UserOperation/)
 
 # Reference
 
