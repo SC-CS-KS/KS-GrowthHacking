@@ -11,10 +11,11 @@
 ## Aha 时刻
 ## 魔法数字
 
-# 增长模型
+# 用户增长模型
+## [用户生命周期](UserGrowthModel/UserLifecycle/README.md)
 
-## [AARRR](GrowthModel/AARRR/README.md)
-## RARRA
+## [AARRR](UserGrowthModel/AARRR/README.md)
+## [RARRA](UserGrowthModel/RARRA/README.md)
 ## 内容增长循环（content loop）
 
 # [AB 试验](ABTest/README.md)
