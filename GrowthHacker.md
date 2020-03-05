@@ -12,13 +12,10 @@
 # 用户洞察
 
 ## [用户生命周期](UserInsight/UserLifecycle/README.md)
-
 ### [RFM 模型](UserInsight/UserLifecycle/RFM/README.md)
-
 ## [用户行为](UserInsight/UserBehavior/README.md)
 
 ## 用户漏斗
-
 ### [拉新](UserInsight/FunnelModel/UserAcquisition/README.md)
 ### [激活](UserInsight/FunnelModel/UserActivation/README.md)
 ### [留存](UserInsight/FunnelModel/UserRetention/README.md)
@@ -39,9 +36,11 @@
 
 # [业务洞察](BizInsight/README.md)
 
-# [增长策略](GrowthStrategy/)
+# [增长策略](GHStrategy/)
+## 策略投放
+## 策略玩法
 
-# [AB 试验](ABTest/README.md)
+# [AB 试验](ABTestDriven/)
 
 # [数据驱动](DataDriven/README.md)
 
