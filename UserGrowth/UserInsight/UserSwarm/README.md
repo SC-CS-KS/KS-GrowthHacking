@@ -2,11 +2,8 @@
 
 ## [什么是用户分群？](WhatIs.md)
 
-## [RFM模型](Model-RFM/README.md)
-
 ## [基于用户行为数据的分群模型](Model-BasedOnUBD/README.md)
 
 ## 数据挖掘算法
 K-Means聚类算法
-
 
