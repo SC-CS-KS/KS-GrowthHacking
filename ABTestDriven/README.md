@@ -2,7 +2,9 @@
 
 # [What Is A/B Test?](WhatIs.md)
 
-# 实验流程
+# [AB实验原理](Theories/README.md)
+## 实验流程
+## [AA实验](Theories/AATest.md)
 
 # [分流能力](Shunt/README.md)
 ## 分层分流
