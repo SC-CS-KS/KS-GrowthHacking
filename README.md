@@ -1,46 +1,61 @@
-# 增长黑客
+增长黑客  
+==========
 
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+* [增长黑客 Books](https://sc-cs-ks.github.io/KS-GrowthHacking/)    
 
-Table of Content
-=================
+# [What Is？](WhatIs.md)
 
-   * [<a href="WhatIs.md">What Is？</a>](#what-is)
-   * [<a href="GrowthHacker/README.md">增长黑客方法论</a>](#增长黑客方法论)
-      * [<a href="GrowthHacker/TEAM/README.md">增长团队</a>](#增长团队)
-      * [<a href="GrowthHacker/Methodology/PolarisIndex.md">北极星指标</a>](#北极星指标)
-      * [<a href="GrowthHacker/Methodology/AhaMoment.md">Aha 时刻</a>](#aha-时刻)
-      * [<a href="GrowthHacker/Methodology/MagicNumber.md">魔法数字</a>](#魔法数字)
-   * [<a href="UserGrowth/">用户增长</a>](#用户增长)
-      * [[用]户洞察](UserGrowth/UserInsight/)](#用户洞察usergrowthuserinsight)
-         * [<a href="UserGrowth/UserInsight/UserLifecycle/README.md">用户生命周期</a>](#用户生命周期)
-            * [<a href="UserGrowth/UserInsight/UserLifecycle/RFM/README.md">RFM 模型</a>](#rfm-模型)
-         * [<a href="UserGrowth/UserInsight/UserBehavior/README.md">用户行为</a>](#用户行为)
-         * [用户漏斗](#用户漏斗)
-            * [<a href="UserGrowth/UserInsight/FunnelModel/UserAcquisition/README.md">拉新</a>](#拉新)
-            * [<a href="UserGrowth/UserInsight/FunnelModel/UserActivation/README.md">激活</a>](#激活)
-            * [<a href="UserGrowth/UserInsight/FunnelModel/UserRetention/README.md">留存</a>](#留存)
-            * [推荐](#推荐)
-            * [变现](#变现)
-            * [<a href="UserGrowth/UserInsight/FunnelModel/AARRR/README.md">AARRR</a>](#aarrr)
-            * [<a href="UserGrowth/UserInsight/FunnelModel/RARRA/README.md">RARRA</a>](#rarra)
-      * [<a href="UserGrowth/UserPortrait/README.md">用户画像</a>](#用户画像)
-      * [<a href="UserGrowth/UserTag/">用户标签</a>](#用户标签)
-      * [<a href="UserGrowth/UGStrategies/">用户增长策略</a>](#用户增长策略)
-      * [<a href="https://github.com/SC-CS-KS/KS-SMO/tree/master/Operation/UserOps">用户运营</a>](#用户运营)
-   * [<a href="GP/README.md">增长平台</a>](#增长平台)
-      * [<a href="GP/GrowingIO">GrowingIO</a>](#growingio)
-      * [<a href="GP/TGP">TGP</a>](#tgp)
-   * [企业增长](#企业增长)
-      * [<a href="BizInsight/">业务洞察</a>](#业务洞察)
-   * [<a href="GHStrategy/">增长策略</a>](#增长策略)
-      * [策略投放](#策略投放)
-      * [策略玩法](#策略玩法)
-   * [<a href="https://github.com/SC-CS-KS/KS-ABTest">实验驱动</a>](#实验驱动)
-   * [<a href="DataDriven/">数据驱动</a>](#数据驱动)
-      * [数据采集](#数据采集)
-         * [<a href="DataCollection/EventTracking/README.md">数据埋点</a>](#数据埋点)
-      * [<a href="DataDriven/DataAnalysis/README.md">数据分析</a>](#数据分析)
-         * [<a href="DataDriven/DataAnalysis/Index/README.md">数据指标</a>](#数据指标)
-      * [<a href="DataDriven/DataMonitor/README.md">数据监控</a>](#数据监控)
+# [增长黑客方法论](GrowthHacker/README.md)
 
+## [增长团队](GrowthHacker/TEAM/README.md)
+## [北极星指标](GrowthHacker/Methodology/PolarisIndex.md)
+## [Aha 时刻](GrowthHacker/Methodology/AhaMoment.md)
+## [魔法数字](GrowthHacker/Methodology/MagicNumber.md)
+
+# [用户增长](UserGrowth/)  
+
+## [用户洞察](UserGrowth/UserInsight/)
+
+### [用户生命周期](UserGrowth/UserInsight/UserLifecycle/README.md)
+#### [RFM 模型](UserGrowth/UserInsight/UserLifecycle/RFM/README.md)
+### [用户行为](UserGrowth/UserInsight/UserBehavior/README.md)
+
+### 用户漏斗
+#### [拉新](UserGrowth/UserInsight/FunnelModel/UserAcquisition/README.md)
+#### [激活](UserGrowth/UserInsight/FunnelModel/UserActivation/README.md)
+#### [留存](UserGrowth/UserInsight/FunnelModel/UserRetention/README.md)
+#### 推荐
+#### 变现
+
+#### [AARRR](UserGrowth/UserInsight/FunnelModel/AARRR/README.md)
+#### [RARRA](UserGrowth/UserInsight/FunnelModel/RARRA/README.md)
+
+## [用户画像](UserGrowth/UserPortrait/README.md)
+## [用户标签](UserGrowth/UserTag/)
+
+## [用户增长策略](UserGrowth/UGStrategies/)
+
+## [用户运营](https://github.com/SC-CS-KS/KS-SMO/tree/master/Operation/UserOps)
+
+# [增长平台](GP/README.md)
+## [GrowingIO](GP/GrowingIO)
+## [TGP](GP/TGP)
+
+# 企业增长
+## [业务洞察](BizInsight/)
+
+# [增长策略](GHStrategy/)
+## 策略投放
+## 策略玩法
+
+# [实验驱动](https://github.com/SC-CS-KS/KS-ABTest)
+
+# [数据驱动](DataDriven/)
+
+## 数据采集
+### [数据埋点](DataCollection/EventTracking/README.md)
+
+## [数据分析](DataDriven/DataAnalysis/README.md)
+### [数据指标](DataDriven/DataAnalysis/Index/README.md)
+
+## [数据监控](DataDriven/DataMonitor/README.md)
