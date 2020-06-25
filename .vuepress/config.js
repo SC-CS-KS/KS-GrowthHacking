@@ -40,6 +40,17 @@ module.exports = {
         path: '/a-books/user-profile/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/a-books/user-profile/notes/01.md',
+          '/a-books/user-profile/notes/02.md',
+          '/a-books/user-profile/notes/03.md',
+          '/a-books/user-profile/notes/04.md',
+          '/a-books/user-profile/notes/05.md',
+          '/a-books/user-profile/notes/06.md',
+          '/a-books/user-profile/notes/07.md',
+          '/a-books/user-profile/notes/08.md',
+          '/a-books/user-profile/notes/09.md',
+        ]
       },
     ]
   }

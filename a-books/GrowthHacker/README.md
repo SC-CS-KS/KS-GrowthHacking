@@ -1,4 +1,4 @@
-# 《增长黑客:创业公司的收入和增长秘籍》
+# 《增长黑客-创业公司的收入和增长秘籍》
 
 [2015年7月1日发行，作者是范冰](https://jobrest.gitbooks.io/growthhacking/content/index.html)    
 
