@@ -1,7 +1,7 @@
 增长黑客  
 ==========
 
-* [增长黑客 Books](https://sc-cs-ks.github.io/KS-GrowthHacking/)    
+# [增长黑客 Books](_books/README.md)    
 
 # [What Is？](WhatIs.md)
 
