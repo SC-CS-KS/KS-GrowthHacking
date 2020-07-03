@@ -90,6 +90,18 @@ module.exports = {
           '/a-books/user-profile/notes/09.md',
         ]
       },
+      {
+        title: '《超级转化率》',   // 必要的
+        path: '/a-books/super-conversion-rates/',      // 可选的
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/a-books/super-conversion-rates/notes/01.md',
+          '/a-books/super-conversion-rates/notes/02.md',
+          '/a-books/super-conversion-rates/notes/03.md',
+          '/a-books/super-conversion-rates/notes/04.md'
+        ]
+      },
     ]
   }
 }
