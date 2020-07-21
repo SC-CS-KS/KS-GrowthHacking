@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>用户行为数据分析概论 | 增长黑客知识库</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/KS-GrowthHacking/assets/css/0.styles.b976d6aa.css" as="style"><link rel="preload" href="/KS-GrowthHacking/assets/js/app.cc890b24.js" as="script"><link rel="preload" href="/KS-GrowthHacking/assets/js/2.845c86c7.js" as="script"><link rel="preload" href="/KS-GrowthHacking/assets/js/110.22f60f7e.js" as="script"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/10.f241c5d0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/100.24f28d43.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/101.bdcd9164.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/102.309dfaea.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/103.dea4ea03.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/104.d79bed72.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/105.cdead76c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/106.ca259797.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/107.6989ab67.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/108.bc665fe2.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/109.15550878.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/11.0a96fe93.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/111.85da2763.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/112.699b1f8e.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/113.9d93eb3a.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/114.f7b3e15d.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/115.70270756.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/116.e8f05f6d.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/117.212c26aa.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/118.4264b8a0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/119.37857d79.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/12.ea32b1ae.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/120.8d7fc01c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/121.a53e0906.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/122.2f06901d.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/123.9fc04a5e.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/124.bd6bc083.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/125.d5614822.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/126.492fd137.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/127.0692d34c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/128.0e6999b8.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/129.a0bf6376.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/13.5f638e29.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/130.fb9096a9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/131.3fed4a48.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/132.82037e87.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/133.ec349869.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/134.d0276e39.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/135.1485dcf1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/136.c9cc8bf9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/137.3023a645.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/138.b60efec6.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/139.6dc6228a.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/14.4e345be0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/140.81dde792.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/141.7cb1fd73.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/142.d2c8cb78.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/143.6fd01baf.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/144.cf2819ec.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/145.f796ab88.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/146.0f22dde0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/147.e70959c4.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/148.9d495a16.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/149.a9ad9b2c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/15.23d31c91.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/150.e893c9d9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/151.4c6703ff.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/152.580506b9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/153.88ecbee9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/154.33a07c75.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/155.cc37af97.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/156.084e9ba8.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/157.f9474cc2.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/158.67e5909f.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/159.bdf01a06.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/16.db7b1623.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/160.8139cda1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/17.780cc3c9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/18.269265fd.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/19.28366c89.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/20.d663f4b9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/21.3dcd2561.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/22.f14e1549.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/23.4f5e285f.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/24.344a2203.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/25.d51cf963.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/26.9927df8e.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/27.51b88cba.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/28.9b688e87.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/29.00a15eb0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/3.8a8369f1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/30.19f907c6.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/31.8bd1092c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/32.cf212a09.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/33.702bd399.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/34.d0f53c0c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/35.413d0a2d.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/36.2caa7c9a.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/37.f963f4f5.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/38.7179f0f0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/39.5d8564d2.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/4.baa78ad1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/40.169e6f91.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/41.7f3a4ae6.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/42.e8e92edb.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/43.384de4d1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/44.4e49327a.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/45.265ce46e.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/46.c4d895ae.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/47.734cd1c0.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/48.f75e7813.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/49.e01e5e58.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/5.27199e80.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/50.0d8b677c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/51.7b230bb6.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/52.da42e612.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/53.c8fb5f13.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/54.d9ec1b41.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/55.787b0b30.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/56.1102666c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/57.1b91a157.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/58.e7b89047.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/59.520c0f97.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/6.9699c10d.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/60.90786d85.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/61.411be7f1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/62.82c15bc9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/63.da136f02.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/64.f9b31a68.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/65.2f28f333.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/66.6d84dfd4.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/67.f76531d9.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/68.4f993a21.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/69.27c5f1bd.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/7.4fcd1b8f.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/70.de6f5adc.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/71.344a06de.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/72.d8ea8ef6.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/73.8b129992.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/74.d5f4b676.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/75.6699504e.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/76.aa08aac7.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/77.a319400c.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/78.11ed44be.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/79.01b467b4.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/8.2cd9fc94.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/80.b256fbcd.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/81.09e6b9e5.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/82.2bd7f72b.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/83.f4053249.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/84.c1ee4f0b.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/85.9fee6dd1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/86.cd03e594.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/87.80e270af.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/88.0ad0e4b4.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/89.b0229653.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/9.4b7a23a3.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/90.efca0201.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/91.2920cdaa.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/92.7bb6ea79.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/93.19fcc58f.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/94.4bdb9a9f.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/95.84580383.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/96.c8a29ee1.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/97.e80a8224.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/98.6ea969d4.js"><link rel="prefetch" href="/KS-GrowthHacking/assets/js/99.de9be114.js">
+    <link rel="stylesheet" href="/KS-GrowthHacking/assets/css/0.styles.b976d6aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/KS-GrowthHacking/" class="home-link router-link-active"><!----> <span class="site-name">增长黑客知识库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/GrowthHacker/" class="sidebar-heading clickable open"><span>《增长黑客-创业公司的收入和增长秘籍》</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/01.html" class="sidebar-link">第1章　增长黑客的崛起</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/02.html" class="sidebar-link">第2章　创造正确的产品</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/03.html" class="sidebar-link">第3章　获取用户</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/04.html" class="sidebar-link">第4章　激发活跃</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/05.html" class="sidebar-link">第5章　提高留存</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/06.html" class="sidebar-link">第6章　增加收入</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/07.html" class="sidebar-link">第7章　病毒传播</a></li><li><a href="/KS-GrowthHacking/a-books/GrowthHacker/notes/08.html" class="sidebar-link">第8章　完整案例集</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/GH-practice-notes/" class="sidebar-heading clickable"><span>《硅谷增长黑客实战笔记》</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/user-growth-methodology/" class="sidebar-heading clickable"><span>《用户增长方法论：找到产品长盛不衰的增长曲线》</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/GrowingIO/" class="sidebar-heading clickable router-link-active"><span>GrowingIO</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/user-profile/" class="sidebar-heading clickable"><span>《用户画像》</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/KS-GrowthHacking/a-books/super-conversion-rates/" class="sidebar-heading clickable"><span>《超级转化率》</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="用户行为数据分析概论"><a href="#用户行为数据分析概论" class="header-anchor">#</a> 用户行为数据分析概论</h1> <ul><li><a href="#%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%A6%82%E8%AE%BA">用户行为数据分析概论</a> <ul><li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%81%9A%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90">为什么要做用户行为分析?</a> <ul><li><a href="#%E4%BB%80%E4%B9%88%E6%98%AF%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA">什么是用户行为？</a></li> <li><a href="#%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%8C%E4%B8%9A%E6%84%8F%E4%B9%89">用户行为数据的行业意义</a></li> <li><a href="#%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF">用户行为数据的应用场景</a></li></ul></li> <li><a href="#%E5%A6%82%E4%BD%95%E9%87%87%E9%9B%86%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE">如何采集用户行为数据?</a> <ul><li><a href="#%E5%9F%8B%E7%82%B9%E9%87%87%E9%9B%86%E6%95%B0%E6%8D%AE">埋点采集数据</a></li> <li><a href="#%E6%97%A0%E5%9F%8B%E7%82%B9%E9%87%87%E9%9B%86%E6%95%B0%E6%8D%AE">无埋点采集数据</a> <ul><li><a href="#%E5%8E%9F%E7%90%86">原理</a></li> <li><a href="#%E6%8A%80%E6%9C%AF%E4%BC%98%E5%8A%BF">技术优势</a></li></ul></li> <li><a href="#%E5%8F%8C%E6%A8%A1%E5%BC%8F%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E6%96%B9%E6%A1%88">双模式数据采集方案</a> <ul><li><a href="#%E5%9F%8B%E7%82%B9%E6%97%A0%E5%9F%8B%E7%82%B9%E7%9A%84%E5%8E%9F%E7%90%86">“埋点 无埋点”的原理</a></li> <li><a href="#%E4%BC%98%E5%8A%BF">优势</a></li></ul></li></ul></li> <li><a href="#%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%8C%87%E6%A0%87%E4%BD%93%E7%B3%BB">如何搭建数据指标体系?</a> <ul><li><a href="#%E8%83%8C%E6%99%AF">背景</a></li> <li><a href="#%E6%8C%87%E6%A0%87%E6%98%AF%E4%B8%80%E7%A7%8D%E5%BA%A6%E9%87%8F">「指标」是一种度量</a></li> <li><a href="#osm-%E6%A8%A1%E5%9E%8B">OSM 模型</a> <ul><li><a href="#%E6%A1%88%E4%BE%8B">案例</a></li> <li><a href="#osm-%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%9C%8B%E6%9D%BF">OSM 模型的看板</a></li></ul></li> <li><a href="#%E6%95%B0%E6%8D%AE%E6%8C%87%E6%A0%87%E5%88%86%E7%BA%A7%E4%BD%93%E7%B3%BB">数据指标分级体系</a> <ul><li><a href="#%E4%B8%89%E4%B8%AA%E5%B1%82%E7%BA%A7">三个层级</a></li> <li><a href="#growingio-%E6%8C%87%E6%A0%87%E4%BD%93%E7%B3%BB%E5%AE%9E%E8%B7%B5">GrowingIO 指标体系实践</a></li></ul></li></ul></li> <li><a href="#%E6%80%8E%E4%B9%88%E5%81%9A%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90">怎么做用户行为数据分析</a> <ul><li><a href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%A4%E5%A4%A7%E6%80%9D%E8%B7%AF">数据分析两大思路</a> <ul><li><a href="#%E4%BA%94%E4%B8%AA%E5%9F%BA%E6%9C%AC%E6%AD%A5%E9%AA%A4">五个基本步骤</a></li> <li><a href="#%E5%86%85%E5%A4%96%E5%9B%A0%E7%B4%A0%E5%88%86%E8%A7%A3%E6%B3%95">内外因素分解法</a></li></ul></li> <li><a href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%9A%84-8-%E7%A7%8D%E6%96%B9%E6%B3%95">数据分析的 8 种方法</a> <ul><li><a href="#%E6%95%B0%E5%AD%97%E5%92%8C%E8%B6%8B%E5%8A%BF">数字和趋势</a></li> <li><a href="#%E7%BB%B4%E5%BA%A6%E5%88%86%E8%A7%A3">维度分解</a></li> <li><a href="#%E7%94%A8%E6%88%B7%E5%88%86%E7%BE%A4">用户分群</a></li> <li><a href="#%E8%BD%AC%E5%8C%96%E6%BC%8F%E6%96%97">转化漏斗</a></li> <li><a href="#%E8%A1%8C%E4%B8%BA%E8%BD%A8%E8%BF%B9">行为轨迹</a></li> <li><a href="#%E7%95%99%E5%AD%98%E5%88%86%E6%9E%90">留存分析</a></li> <li><a href="#ab-%E6%B5%8B%E8%AF%95">A/B 测试</a></li> <li><a href="#%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1">数学建模</a></li></ul></li></ul></li></ul></li></ul> <h2 id="为什么要做用户行为分析"><a href="#为什么要做用户行为分析" class="header-anchor">#</a> 为什么要做用户行为分析?</h2> <ul><li>单纯从数据组成的角度来说</li> <li><ul><li>完善的闭环数据源</li></ul></li></ul> <p>第一 块是用户行为数据<br>
+第二块是用户信息 &amp; CRM 数据<br>
+第三块是 Transaction (交易)数据和服务端日志数据</p> <p>行为数据和日志数据很多时候都是近似的，完备的 用户行为数据基本能覆盖绝大多数的服务端日志数据，同时包含着很多日志 数据所缺乏的信息。</p> <ul><li>从技术发展角度来说<br>
+最近几年发展最快的可以说是前端，每个月都会有很 多新的东西出现，整体趋势是往单页应用发展，追求用户体验。
+同时，还有 移动端应用，也在产生着大量的行为数据，这些都不会跟服务端有过多交 互。</li></ul> <h3 id="什么是用户行为？"><a href="#什么是用户行为？" class="header-anchor">#</a> 什么是用户行为？</h3> <ul><li>五元素
+时间(when)、地点(where)、人 物(who)、交互(how)、交互的内容(what)
+也就是说用户在什么 时间、什么地点以何种交互方式进行了某种操作。</li></ul> <p>“结果型”数据
+“过程型”数据</p> <h3 id="用户行为数据的行业意义"><a href="#用户行为数据的行业意义" class="header-anchor">#</a> 用户行为数据的行业意义</h3> <p>分析的主要方式就是关注流失，尤其是对转化有要求的网站
+用户行为数据分析帮助分析用户怎么流失、为什么流失、在哪里流失。</p> <h3 id="用户行为数据的应用场景"><a href="#用户行为数据的应用场景" class="header-anchor">#</a> 用户行为数据的应用场景</h3> <p>拉新，也就是获取新用户
+转化，比如电商特别注重订单转化率
+促活，如何让用户经常使用我们的产品
+留存，提前发现可能流失用户，降低流失率
+用户流失不是说一下子就流失了，一些细微行为，就能预示他将来会流失。
+变现，发现高价值用户，提高销售效率</p> <h2 id="如何采集用户行为数据"><a href="#如何采集用户行为数据" class="header-anchor">#</a> 如何采集用户行为数据?</h2> <h3 id="埋点采集数据"><a href="#埋点采集数据" class="header-anchor">#</a> 埋点采集数据</h3> <p>Capture 模式</p> <p>埋点采集数据的 7 个步骤</p> <ul><li>埋点采集数据的 4 个缺点</li></ul> <div class="language-text extra-class"><pre class="language-text"><code>依赖经验导向
+	Capture 模式非常依赖人的经验和直觉
+沟通成本高
+	一个有效的分析结果，依赖于数据的完整性和完备性。
+需大量时间做数据清洗
+	由于需求的多变性、埋点分成多次加入、缺乏统筹设计和统一管理， 结果代码自然是无比混乱。
+数据漏采错采
+</code></pre></div><h3 id="无埋点采集数据"><a href="#无埋点采集数据" class="header-anchor">#</a> 无埋点采集数据</h3> <p>Record 模式 : 是用机器来替代人的经验</p> <h4 id="原理"><a href="#原理" class="header-anchor">#</a> 原理</h4> <ul><li>从业务角度出发，划分为 5 种维度</li></ul> <div class="language-text extra-class"><pre class="language-text"><code>Who，行为背后的人具有哪些属 性
+When，什么时候触发的这个行为
+Where，城市地区浏览器甚至 GPS 等
+What，也就是内容
+How，是怎样完成的
+</code></pre></div><p>对信息的解构，保证了数据从源头就是干净的，在此基础上面，我们完全可以把 ETL 自动化，需要什么数据可以随时回溯。</p> <h4 id="技术优势"><a href="#技术优势" class="header-anchor">#</a> 技术优势</h4> <p>真正做到所见即 所得，不仅是 PC，它还支持 iOS、Android 和 Hybrid，可以进行跨屏的 用户分析。</p> <p>加载了我们自己的监测代码后，无需一个一个写埋点代码，只需要用鼠标圈选对应元素，即可获得数据。</p> <p>用户行为数据采集的目的是通过了解用户过去的行为，来预测未来发生的事 情
+无需埋点，随时回溯数据，让一个人就可以搞定用户行为数据分析的全 部流程。
+这样一个简单、迅速和规模化的数据分析产品，能极大地简化分析 流程，提高效率，直达业务。</p> <h3 id="双模式数据采集方案"><a href="#双模式数据采集方案" class="header-anchor">#</a> 双模式数据采集方案</h3> <p>能够采集到完整的用户行为数据和业务数据，而且 要把用户行为数据和业务数据打通。</p> <h4 id="埋点-无埋点-的原理"><a href="#埋点-无埋点-的原理" class="header-anchor">#</a> “埋点+无埋点”的原理</h4> <p>电商 App 为例
+用户从 “打开 App” – “观看首屏广告” – “搜索关键词” – “进入结 果页” – “加入购物车” 再到 “支付完成”，<br>
+整个过程中既有用户行为数 据(过程型数据)，又有交易数据(结果型数据)。</p> <h4 id="优势"><a href="#优势" class="header-anchor">#</a> 优势</h4> <ul><li>为什么需要双模式？
+无埋点的方法本身效率比较高，实践证明，无埋点产生的数据指标是 埋点产生的数据指标的 100 倍甚至更多。
+无埋点数据采集成本低
+埋点采集的优势是可以更加详细的描述每个事件的属性，特别是针对 结果数据。</li></ul> <p>用无埋点采集的用户行为数据是用户产生最后结果的“前因”数据
+用埋点采集的业务数据是结果数据，是“后果”
+无埋点和埋点相结合的解决方案 提高了工作效率，同时记录了“前因”和“后果”数据，<br>
+帮助市场、产品和 运营分析获客、转化和留存，实现用户的快速增长。</p> <p>迭代分析模式
+基于无埋点全量数据和智能工 具，可以敏捷快速地支持创新迭代。</p> <p>监控管理模式
+监控的是偏业务的数据
+比如订单量、每天完成 的金额，这些指标都是可以一直复用的，而且对准确性的要求非常高。
+要 我们用「埋点」的方式去做，并进行长期监控。</p> <p>两个模式之间是流动的，采用无埋点和埋点结合的方式，可以节 省研发投入，帮助我们快速地获取想要的数据，去做监控。
+当我们的产品不 断迭代开发，达到一个稳定阶段的时候，就可以用埋点方式获取一些相对固 定的指标，通过这种不断的循环去做接下来的迭代和开发。</p> <h2 id="如何搭建数据指标体系"><a href="#如何搭建数据指标体系" class="header-anchor">#</a> 如何搭建数据指标体系?</h2> <h3 id="背景"><a href="#背景" class="header-anchor">#</a> 背景</h3> <p>大部分成长型公司缺少体系化的监控，每天看数据的有多少?在日常工作中 需要监控多少个运营指标?
+解决上述问题的思路是给公司搭建一套基于业务 的数据监控体系，数据监控环节离不开一个核心概念——指标。</p> <h3 id="「指标」是一种度量"><a href="#「指标」是一种度量" class="header-anchor">#</a> 「指标」是一种度量</h3> <p>它用于追踪和评估商业进程的状态，确保项目务在正 确的轨道上运营，同时验证方法论，不断地学习。
+指标监控体系最大的价值 就是帮助大家高效利用时间，把时间花在解决问题上，而不是寻找问题上， 从而提高团队整体的人效。</p> <h3 id="osm-模型"><a href="#osm-模型" class="header-anchor">#</a> OSM 模型</h3> <p>O 代表业务目标(Object)
+S 代表业务策略(Strategy)
+M 代表业务度量(Measure)
+用于衡量我们的策略是否有效，反映目 标的达成情况
+KPI 用来直接衡量策略的有效性
+Target 是预先给出的值，用来判断是否达 到预期。</p> <h4 id="案例"><a href="#案例" class="header-anchor">#</a> 案例</h4> <p>以「非标住宿」平台为例</p> <ul><li>指标衡量的是什么?
+2 种视角
+用户视角 让用户通过搜索高效地找到心仪的住宿产品。
+业务视角 提高从搜索到最后成功下单的转化率。</li></ul> <p>为了提高这个转化率，我们会采取什么样的策略呢?
+第一，返回与用户搜索值相匹配的搜索结果。
+第二，提供有效的搜索结果排序。
+第三，当搜索没有结果或者结果不足时，我们就要做有效的推荐。</p> <ul><li>如何有效衡量“什么”?
+第一步，选择合适的 OSM 指标度量。
+针对从搜索到下单的整个流程，可以拆解 2 个 KPI 指标。
+KPI 1 是搜索到 详情页的转化率，我们设置的 Target 是 30%。
+KPI 2 是详情页到下单的转化 率，Target 也是 30%。</li></ul> <p>第二步，注意结果性指标和过程性指标。
+结果性指标 就比如电商场景下的 GMV 或订单量，它通常是业务漏斗的 底部，是一个不可更改的、后验性的指标。
+过程性指标 可以简单理解为到 达这个结果之前经过的路径，以及通过这个路径去衡量转化好坏的过程，它 是可干预的，而且通常是“用户行为”。</p> <ul><li><p>如何衡量指标的好坏?
+需要设定 Target 来衡量指标的好坏，这基于我们内部的历史数据和行 业的 benchmark
+设定原则是:要对内部有一定的挑战性，但又不是遥 不可及的。</p></li> <li><p>如何改善指标的表现?
+优化过程指标便可以改善指标的表现。</p></li></ul> <p>首先
+问你的领导，我们今年的目标 是什么?我们的产品要达到一个什么样的东西?
+其次，我们要关注的是长期 目标和近期目标，并让其相辅相成。</p> <ul><li><ul><li>选取目标的原则</li></ul></li></ul> <p>DUMB原则
+• 切实可行 (Doable)
+• 易于理解 (Understandable)
+• 可干预可管理 (Manageable)
+• 正向的有益的 (Beneficial)</p> <p>以用户视角和业务视角出发制定的这两个目标，是符合 DUMB 原则的。</p> <ul><li><ul><li>避免两个误区
+第一个误区，过于模糊
+用户视角的目标就过于模糊，就像哈 姆雷特一样，每个人都有自己心仪的一个东西，它是不可衡量的。
+第二个误区，过于保守和激进</li></ul></li></ul> <h4 id="osm-模型的看板"><a href="#osm-模型的看板" class="header-anchor">#</a> OSM 模型的看板</h4> <p>猎上网
+把 OSM 业务度量模型引入到猎上网的数据分析流程中。
+所有业务部门向数据中心提交数据报表或分析的需求，都需要利用模板梳理 需求，分为目标、策略和衡量指标，<br>
+并和数据团队的分析师共同 review 需 求，达成共识后进行数据分析或开发工作。</p> <h3 id="数据指标分级体系"><a href="#数据指标分级体系" class="header-anchor">#</a> 数据指标分级体系</h3> <p>指标分级体系更适合我们的 BI 或者分析师
+能够帮助公司搭建一套完整的数据指标监控体系，从而及时发现业绩 的升高或降低，以及产生的原因。</p> <p>数据本身是分层的
+我们在思考指标的时候，也应该有一个层级的概念，而 不是现阶段关心什么，我们就放什么
+指标分级可以帮助我们更高效的去定 位问题，去验证你的方法论，无需每次都要思考要去看哪些指标。</p> <h4 id="三个层级"><a href="#三个层级" class="header-anchor">#</a> 三个层级</h4> <p>不一定要拆得太细，否则层级会过 深，基本上 3 个层级就能够指导一线的业务人员去做一些动作。</p> <ul><li><p>一级指标
+一级指标必须是全公司都认可的、衡量业绩的核心指标。</p></li> <li><p>二级指标
+二级指标是一级指标的路径指标
+一级指标发生变化的时候，我们通过查看 二级指标，能够快速定位问题的原因所在。</p></li></ul> <p>比如说
+一级指标是 GMV 和订单数量上升，那怎样去定二级指标 呢?
+在历史经验的基础上去拆解一级指标，而能够影响到 GMV 和订 单数量上升的，就是核心二级指标。
+比如说货品的单价上升，或者最近做的 一些活动。</p> <ul><li>三级指标
+三级指标是对二级指标的路径的分析
+通过三级指标，可以高效定位二级指 标波动的原因，这一步也会基于历史经验和拆解。
+三级指标能够直接执行一线运营的角色和作用</li></ul> <p>以一级指标 GMV 提升为 例
+我们拆解后发现是转化率提升，那么转化率就是二级指标。
+接着分平台去拆解转化率的时候，我们发现是 IOS 的客户端转化率有所提升。
+那为什么安卓没有提升，是不是 iOS 最近做了一些迭代?
+是不是它的一个 转化路径比其他端好?这些思考就能指导业务人员展开行动。</p> <h4 id="growingio-指标体系实践"><a href="#growingio-指标体系实践" class="header-anchor">#</a> GrowingIO 指标体系实践</h4> <ul><li>设立
+一级指标 增长指标 新用户的注册量
+二级指标 活跃指标 DAU ，也就是登陆用户数
+三级指标 变现指标 用户从注册到下单，所完成的订单额或营业额。</li></ul> <p>如果看到一级指标(新的注册用户数)有增长，我们就要迅速去看一下，是 不是有哪些二级指标做了波动，便能快速定位一级指标增长的原因。
+有了二 级指标的增长，再通过三级指标拆解二级指标，以此类推，我们便能够解决 日常业务中遇到的 70% 的问题。</p> <h2 id="怎么做用户行为数据分析"><a href="#怎么做用户行为数据分析" class="header-anchor">#</a> 怎么做用户行为数据分析</h2> <p>通过企业或者平台为目标用户群提供产品或服务，而用户在使用产品或服务 过程中产生的交互、交易，都可以作为数据采集下来。
+根据这些数据洞察， 通过分析的手段反推客户的需求，创造更多符合需求的增值产品和服务，重 新投入用户的使用，从而形成一个完整的业务闭环。
+这样的完整业务逻辑， 可以真正意义上驱动业务的增长。</p> <h3 id="数据分析两大思路"><a href="#数据分析两大思路" class="header-anchor">#</a> 数据分析两大思路</h3> <h4 id="五个基本步骤"><a href="#五个基本步骤" class="header-anchor">#</a> 五个基本步骤</h4> <p>所有商业数据分析 都应该以业务场景为起始思考点，以业务决策作为终点。</p> <div class="language-text extra-class"><pre class="language-text"><code>第一步，要先挖掘业务含义
+	理解数据分析的背景、前提以及想要关联的业 务场景结果是什么。
+第二步，需要制定分析计划
+	如何对场景拆分，如何推断。
+第三步，从分析计划中拆分出需要的数据
+	真正落地分析本身。
+第四步，从数据结果中，判断提炼出商务洞察。
+第五步，根据数据结果洞察，最终产出商业决策。
+</code></pre></div><h4 id="内外因素分解法"><a href="#内外因素分解法" class="header-anchor">#</a> 内外因素分解法</h4> <p>在数据分析的过程中，会有很多因素影响到我们的北极星指标，那么如何找 到这些因素呢?
+内外因素分解法是把问题 拆成四部分，包括内部因素、外部因素、可控和不可控，然后再一步步解决 每一个问题。</p> <p>内部可控因素
+产品近期上线更新、市场投放渠道变化、产品粘性、新老用 户留存问题、核心目标的转化。
+外部可控因素
+市场竞争对手近期行为、用户使用习惯的变化、招聘需求随 时间的变化。
+内部不可控因素
+产品策略(移动端/PC 端)、公司整体战略、公司客户群 定位(比如只做医疗行业招聘)
+外部不可控因素
+互联网招聘行业趋势、整体经济形势、季节性变化</p> <h3 id="数据分析的-8-种方法"><a href="#数据分析的-8-种方法" class="header-anchor">#</a> 数据分析的 8 种方法</h3> <ul><li>以一个电子商务网站为 例</li></ul> <h4 id="数字和趋势"><a href="#数字和趋势" class="header-anchor">#</a> 数字和趋势</h4> <div class="language- extra-class"><pre><code>看数字、看趋势是最基础展示数据信息的方式
+</code></pre></div><h4 id="维度分解"><a href="#维度分解" class="header-anchor">#</a> 维度分解</h4> <div class="language- extra-class"><pre><code>当单一的数字或趋势过于宏观时，我们需要通过不同的维度对于数据进行分 解，以获取更加精细的数据洞察。
+</code></pre></div><h4 id="用户分群"><a href="#用户分群" class="header-anchor">#</a> 用户分群</h4> <div class="language- extra-class"><pre><code>针对符合某种特定行为或背景信息的用户，进行归类处理，是我们常常讲到 的用户分群(segmentation )的手段。
+我们也可以通过提炼某一群用户的 特定信息，创建该群体用户的画像。 
+</code></pre></div><h4 id="转化漏斗"><a href="#转化漏斗" class="header-anchor">#</a> 转化漏斗</h4> <div class="language- extra-class"><pre><code>绝大部分商业变现的流程，都可以归纳为漏斗
+	通过漏斗分 析可以从先到后还原用户转化的路径，分析每一个转化节点的效率。
+关注三个要点
+	第一，从开始到结尾，整体的转化效率是多少?
+	第二，每一步的转化率是多少?
+	第三，哪一步流失最多，原因在什么地方?流失的用户符合哪些特征?
+</code></pre></div><h4 id="行为轨迹"><a href="#行为轨迹" class="header-anchor">#</a> 行为轨迹</h4> <div class="language- extra-class"><pre><code>关注行为轨迹，是为了真实了解用户行为。
+通过大数据手段，还 原用户的行为轨迹，有助于增长团队关注用户的实际体验、发现具体问题， 根据用户使用习惯设计产品、投放内容。
+</code></pre></div><h4 id="留存分析"><a href="#留存分析" class="header-anchor">#</a> 留存分析</h4> <div class="language- extra-class"><pre><code>在人口红利逐渐消褪的时代，留住一个老用户的成本要远远低于获取一个新 用户。
+每一款产品，每一项服务，都应该核心关注用户的留存，确保做实每 一个客户。
+我们可以通过数据分析理解留存情况，也可以通过分析用户行为 或行为组与回访之间的关联，找到提升留存的方法。
+</code></pre></div><h4 id="a-b-测试"><a href="#a-b-测试" class="header-anchor">#</a> A/B 测试</h4> <div class="language- extra-class"><pre><code>A/B 测试用来对比不同产品设计/算法对结果的影响。
+个必备因素
+	第一，有足够的时间进行测试
+	第二， 数据量和数据密度较高
+		因为当产品流量不够大的时候，做 A/B 测试得到 统计结果是很难的。
+</code></pre></div><h4 id="数学建模"><a href="#数学建模" class="header-anchor">#</a> 数学建模</h4> <div class="language- extra-class"><pre><code>当一个商业目标与多种行为、画像等信息有关联性时，我们通常会使用数学 建模、数据挖掘的手段进行建模，预测该商业结果的产生。
+作为一家 SaaS 企业
+	当我们需要预测判断客户的流失时，可以通过用户 的行为数据、公司信息、用户画像等数据建立流失模型。
+	利用统计学的方式 进行一些组合和权重计算，从而得知用户满足哪些行为之后流失的可能性会 更高。
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/KS-GrowthHacking/assets/js/app.cc890b24.js" defer></script><script src="/KS-GrowthHacking/assets/js/2.845c86c7.js" defer></script><script src="/KS-GrowthHacking/assets/js/110.22f60f7e.js" defer></script>
+  </body>
+</html>
